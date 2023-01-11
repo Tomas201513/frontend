@@ -6,19 +6,52 @@
       img {
         width: 100px;
         border-radius: 50px;
-        float: left;
+        /* float: left; */
         margin-right: 10px;
+        object-fit: cover;
       }
 
       p.ola {
         font-weight: bold;
       }
+      ul{
+        list-style-type: none;
+
+      }
+      li{
+          float: left;
+
+      }
+      video{
+        width: 1000px;
+      }
     </style>
   </head>
 
   <body>
-    <img src="images/cc.png" alt="contact pic" />
-    <p class="ola">@tomas</p>
-    <p>I am learning frontend</p>
+    <ul>
+      <li>
+        <image>
+          <a href="index.html"><img src="images/cc.png" alt="contact pic" /></a>
+        
+          </image>
+      </li>
+      
+      <li>
+
+      <image>
+      <img src="images/tom.jpeg" alt="picture of tomas">
+
+      </image>
+      </li>
+      <li>
+        <video controls autoplay loop src="videos/v1.mp4"></video>
+      </li>
+
+    </ul>
+      
+
+
+    
   </body>
 </html>
