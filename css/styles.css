@@ -1,0 +1,110 @@
+body{
+
+    margin: 10px;
+}
+/* p{
+margin: 10px;
+border: 10px solid royalblue;
+padding: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    padding: 10px;
+    border: 20px solid red;
+    box-sizing: content-box  ;
+}
+
+.x{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: content-box;
+    display: inline-block;
+
+}
+.over{
+    width: 200px;
+    height: 100px;
+    border: 2px solid yellowgreen;
+    overflow: scroll;
+} */
+
+
+/*Floating element example*/
+
+/* .container{
+    border: 3px solid gray ;
+    margin: 50px;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+.box-one{
+    position: fixed;
+    right: 10px;
+    top: 0;
+    z-index: 0;
+    background: gold;
+}
+.box-two {
+    
+background: tomato;
+}
+.box-three {
+   
+background: dodgerblue;
+} */
+
+
+
+/*Flexible box example  */
+
+.container{
+    height: 500px;
+    border: 3px solid gray;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content: center; */
+        
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;   
+    background: gold;
+    margin: 1rem;
+    /* flex-basis: 11rem;
+    flex-grow: 1; */
+    flex: 1 1 15rem;
+
+}
+
+.box-one {
+    
+    /* align-self: flex-start; */
+    /* flex-basis: 5rem; */
+    background: gold;
+    flex-grow: 0;
+}
+
+.box-two {
+
+    background: tomato;
+}
+
+.box-three {
+
+    background: dodgerblue;
+}
+
