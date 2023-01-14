@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'uncut_sansbold';
+    src: url('fonts/uncutsans/uncut-sans-bold-webfont.woff2') format('woff2'),
+        url('fonts/uncutsans/uncut-sans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'uncut_sansbold_oblique';
+    src: url('fonts/uncutsans/uncut-sans-boldoblique-webfont.woff2') format('woff2'),
+        url('fonts/uncutsans/uncut-sans-boldoblique-webfont.woff') format('woff');
+    font-weight: boldoblique;
+    font-style: boldoblique;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'uncut_sansmedium';
+    src: url('fonts/uncutsans/uncut-sans-medium-webfont.woff2') format('woff2'),
+        url('fonts/uncutsans/uncut-sans-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: medium;
+
+}
+
+
+
+
+
+html{
+    /* font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size: 62.5%; */
+    /* width: 70ch; */
+    /* font-weight: 100; */
+    /* font-style:oblique;   */
+    /* font-size: 1.5rem; */
+    /* color: blueviolet; */
+    /* line-height: 2; */
+    /* letter-spacing: 0px; */
+    /* word-spacing: 10px; */
+    /* text-align: right; */
+    
+
+}
+
+p{
+    /* font-size: 2rem; */
+    /* margin: 0 0 9rem 1; */
+    /* text-indent: 1rem; */
+    /* text-decoration: underline; */
+    /* text-transform:capitalize; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    /* column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px dotted black;
+    direction: rtl; */
+
+}
+
+
+
