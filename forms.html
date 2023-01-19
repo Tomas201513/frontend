@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/moqzvnoj" method="post">
+        <div >
+        <label for="name">name</label>
+        <input type="text" name='name' id="name" maxlength="10" value="@gmail.com">
+        </div>
+        
+        <div > 
+            
+        <label for="email">email</label>
+        <input type="text" id="email" name='email' required>
+        </div>
+        <div>
+            <input type="number" >
+            <input type="password">
+            <input type="date">
+            
+            <input type="text" id="programming_language" list="languages"/>
+            <datalist id="languages">
+                <option value="css">css is good</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java Java Java</option>
+                <!-- <option value="HTML">Stop being a troll</option> -->
+            </datalist>
+
+            <select name="" id="">
+                <optgroup label="numberes">
+
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </optgroup>
+                
+                <optgroup label="alphabet">
+
+                <option value="">a</option>
+                <option value="">b</option>
+                <option value="">c</option>
+
+                </optgroup>
+
+
+            </select>   
+        </div>
+
+        <div >
+            <button  type="submit"  >submit</button>
+            <button type="reset" >clear</button>
+        </div>
+
+        <div>
+            <input type="checkbox" id="ola" >
+            <input type="checkbox" id="ola" >
+             <label for="ola">male</label>  <label for="ola">female</label>
+          
+
+        </div>
+
+
+        <fieldset>
+            <legend>form2</legend>    
+                <div>
+                    <input type="radio" id="r1">
+                    <label for="r1" >1</label>
+                    <input type="radio" id="r2">
+                    <label for="r2">2</label>
+                    <input type="radio" id="r3">
+                    <label for="r3">3</label>
+
+                </div>
+
+                <div>
+                <input type="range" min="0" max="100" value="">
+
+                <input type="file">
+                </div>
+
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>
